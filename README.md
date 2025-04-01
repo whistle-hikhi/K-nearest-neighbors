@@ -12,5 +12,10 @@ It is called lazy learning algorithm because of it does not contain any training
 - For classification: using major voting to get the class of data point
 
 ## KD Tree KNN
+- Split the data into regions by median values coordiantes
+- Create binary tree where each node is a region
 
 ## Ball Tree KNN
+- Split the data into hypershphere
+- Each node is a ball containing a subset of data
+- Choose a centroid and radius to enclosed points
